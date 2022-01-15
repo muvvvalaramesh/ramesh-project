@@ -1,0 +1,211 @@
+SQL DEMO [STRUCTURED QUERY LANGUAGE]
+
+Why do we require?
+
+To work with databases and relational databases we need SQL.
+
+
+I heard about NO SQL Databases?
+
+MongoDB, Dynamo DB 
+
+What is data storage?
+
+The area where we store data.
+
+How many stoages available in IT?
+
+FIRST TYPE OF STORAGE [FILE SYSTEM]
+
+Since begining of IT, we have one type of storage, i.e File System [Files and Folders format]
+Here the problem is data is not arranged properly and mostly unstructured data dealing.
+
+Operating systems designed for this reason.
+
+Windows: DOS [Disk Opearing System] : Fully file system based process.
+Unix / Linux: Fully File system based operating system.
+
+Advantages with file system:
+
+	a)Faster storage
+	b)No difference in the data storage 
+	c) Keep data locations and managing data locations is very easy.
+	Ex: 
+		Moving files to others
+		Locating files is easier 
+
+Problems with file system:
+
+	a) For more volumes of data it is difficult to operate
+	b) The data is not suitable to apply business logics
+	c) The data is not at all related to other data, so business integrity is missing.
+	d) No appropriate methodologies to retrieve full data / required data
+	e) Not at all suitable for reporting, analytics and Insights.
+
+1960' DATABASE STORAGE ANNOUNCED
+1970' DATABASE STORAGE RELEASED
+
+Database : It is a "base" for collection of "Data"
+	  Technically database is a collection of entities, tuples, attributes, constraints, views, procedures etc... repository area.
+
+	Advantages:
+			a) Data in the form of tables, table contain multiple columns
+			b) Each value in the table differentiated to other value with a data type and condition
+			    Ex:
+				Column name :  Data Type
+				Employee ID:  Numeric
+				Employee Name: Varchar
+				Employee Joining Date: Date
+				Employee Income : Decimal 
+			
+			c) It is easy to work on columns for data logics
+				Ex:Increment of employee income by 10 percent
+					
+					Employee Income + Employee Income * 10 /100
+				    Concatinate Name and Joining Date
+					Employee Name + Employee Joining Date
+
+			d) On top of table and on top of columns many user friends conditions we can apply,
+				so data consistency, and data robustness we can implement
+			e) Between multiple tables we can provide relationship, so that business data integrity achieved.
+			f) Easy to retrive columns data 
+			g) Easy to analyze columns data
+			h)Easy to present columns data
+			i) Security or data control is fully implemented
+
+	Drawbacks
+			a) Storing takes time when compared to file system [Ex: Numeric in to numeric column]
+			b) Table movement to other areas is tuff when compared to file system
+			c) It is costly solution because of an expert team for development and management is required.
+
+
+How do we work a database?
+
+To implement above all operations, you need current database operational language [SQL].
+In old versions, databases opeerated through SQUARE and SEQUEL languages.
+
+SQL History:
+
+	C is the famous application support language introduced in 1972
+	SQUARE is introduced for databases operations in 1993 by IBM.
+	[Regular Expression langauge, it is very tuff to operate]
+	
+	SEQUEL [ Structured English Query Language]
+	This is close to general English.
+
+	SQL--Structured Query Language --This language has "its own structure" which is not at all similar to other languages.
+	
+	ANSI Standardized --1986
+
+DATABASES
+
+	NORMAL DATABASES
+	NETWORK DATABASES
+	HYBRID DATABASES
+	RELATIONAL DATABASES
+	OBJECT RELATIONAL DATABASE [RDBMS + OOPS {OBJECT ORIENTED PROGRAMMING} FEATURED]
+
+Which database we are going to talk about?
+
+	RDBMS and ORDBMS
+
+What do you mean by relational databases?
+
+	The database tables are related using primary key, foreign key etc...constraints, we recognize them as master and child 	tables.
+	
+	The bases which follow E.F. CODD Rules.
+
+	Ex:
+
+	SQL SERVER
+	ORACLE
+	TERADATA
+	etc...
+
+SQL WORKING AREA
+
+	There are two places where we use SQL
+	a) Console area [ SQL + (Oracle) , SQL Developer (Sql Server), Query Man / BTEQ (Teradata)]
+	b) GUI Areas  [ TOAD (Oracle), SSMS (Sql Server), SQLA (Teradata)
+
+DATABASE LEARNING CONCEPTS:
+
+	a) SQL
+	b) Vendor specific programming extensions
+
+	ex: 
+	Microsoft: Sql Server :  SQL + T-SQL [ Transact SQL]
+	Oracle Corp:Oracle : SQL + PL/SQL [Programming Language SQL]
+	Teradata: Teradata : SQL + Teradata SQL
+	IBM: DB2: SQL + PL [Procedural Language]
+	My-SQL : SQL + PSM [ Persistent Stored Module]
+
+a) SQL
+
+	It has three "sub languages" and many additional "support concepts"
+	a) DDL: Data Definition Language
+		
+		To work (create, modify, remove) with database "object structures" [Table, View, Procedure, Function etc...].
+		
+	b) DML: Data Manipulation Language
+	
+	             To deal with "data" from "tables and  views" only.
+		Retrieve data
+		Modify data
+		Remove data
+		Merge data
+		etc...
+
+	c) DCL: Data Control Language
+
+		It controls the objects access.
+		Provide users to work on objects
+		Remove users to work on objects
+		Cancel users to work with objects
+
+	Supporting concepts
+		Joins
+		Set theory
+		Sub Queries
+		Functions
+		Views 
+		etc...
+
+b) Vendor specific programing extensions
+		
+		Procedures
+		Macros
+		Cursors
+		Triggers
+		Schemas
+		Synonyms
+		Blocks
+		Condiotional statements
+		Utilities
+		etc...
+
+
+
+Graphical show of databases, tables, columns, data types constraints and relationships. [ 20 mins]
+
+Sql Server database
+
+
+SQL Server Training: 30 Hours [SQL + T-Sql]
+
+You will get a good practice material withe theory.
+
+For eah topic...
+
+VIDEOS    --- 100%
+FAQ --- SQL SERVER FAQ'S
+INTERVIEW  Q
+PRACTICAL SESSION
+
+
+
+
+
+
+
+
